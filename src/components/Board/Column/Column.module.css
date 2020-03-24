@@ -1,0 +1,33 @@
+@value colors: '../../../index.css';
+@value lightYellow, darkRed from colors;
+.column {
+  flex-grow: 1;
+  background-color: lightYellow;
+  margin: 10px;
+  border: 1px solid #333333;
+  box-shadow: 4px 3px 7px #cccccc;
+  padding: 10px;
+}
+.card {
+  border: 1px dashed #333333;
+  margin-top: 15px;
+  padding: 15px;
+}
+.addIcon {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.title {
+  position: relative;
+  font-size: 1.2em;
+  background-color: darkRed;
+  display: block;
+  margin: 10px 0px;
+  color: #ffffff;
+  padding: 10px;
+  box-shadow: 4px 3px 7px #cccccc;
+  border-radius: 5px;
+}
