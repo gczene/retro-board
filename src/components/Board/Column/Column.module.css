@@ -1,5 +1,5 @@
 @value colors: '../../../index.css';
-@value lightYellow, darkRed from colors;
+@value lightYellow, darkRed, lightGreen, red from colors;
 .column {
   flex-grow: 1;
   background-color: lightYellow;
@@ -13,11 +13,16 @@
   margin-top: 15px;
   padding: 15px;
 }
+.addIcon:hover {
+  color: red;
+}
 .addIcon {
+  cursor: pointer;
+  padding: 5px;
   display: inline-block;
   position: absolute;
-  right: 10px;
-  top: 10px;
+  right: 8px;
+  top: 8px;
 }
 
 .title {
